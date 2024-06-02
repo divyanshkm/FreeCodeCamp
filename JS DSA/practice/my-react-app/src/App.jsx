@@ -1,14 +1,11 @@
-import Student from "./components/Student"
+import Counter from "./components/Counter";
 
 function App() {
-  
   return (
     <>
-    <Student name="Goku" age={30} isStudent={true}/>
-    <Student name="Patrick" age="sa" isStudent={false} />
-    <Student />
+      <Counter />
     </>
-  )  
+  );
 }
 
-export default App
+export default App;

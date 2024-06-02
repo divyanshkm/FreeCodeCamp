@@ -18,7 +18,7 @@ Student.propTypes = {
 
 Student.defaultProps = {
     name: "Guest",
-    age: 0,
+    age: 99,
     isStudent: false,
 }
 
