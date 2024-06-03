@@ -1,9 +1,9 @@
-import Counter from "./components/Counter";
+import ColorPicker from "./components/ColorPicker";
 
 function App() {
   return (
     <>
-      <Counter />
+      <ColorPicker />
     </>
   );
 }

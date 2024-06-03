@@ -1,25 +1,40 @@
-.counter-container{
-    text-align: center;
+body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.count-display{
-    font-size: 3em;
-    margin-top: 0;
-    margin-bottom: 50px;
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.counter-button{
-    font-size: 3em;
-    margin: 10px;
-     background-color: blueviolet;
-     color: black;
-     border: none;
-     cursor: pointer;
-     border-radius: 8px;
-
+h1{
+    margin: 50px;
+    font-size: 3rem;
 }
 
-.counter-button:hover {
-    background-color: cornflowerblue;
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black ;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+
+.color-display p{
+    color: black ;
+    font-size: 2rem;
+    text-align: center;
+}
+
+input[type="color"]{
+    width: 45px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid green;
 }
